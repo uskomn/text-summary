@@ -1,13 +1,26 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境
+venv/
+env/
+
+# 忽略系统文件
+.DS_Store
+
+# 忽略日志文件
+*.log
+
+# 忽略IDE配置文件（比如 PyCharm）
 .idea/
 
-# Python bytecode files
-__pycache__/
+# 忽略 Jupyter Notebook 的检查点
+.ipynb_checkpoints/
 
-# Other Python-related files
-*.pyc
-*.pyo
+# 忽略本地配置文件
+*.local
+*.env
 
-# 模型
-*.pt
 model/
 data/
